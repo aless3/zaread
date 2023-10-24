@@ -196,7 +196,7 @@ case "$file_converter" in
 			eval "$MOBI_CMD" "$MOBI_ARG" \""$directory/$file"\" \""$ZA_CACHE_DIR/$pdffile"\"
 			;;
 		"$MD_CMD")
-			eval "$MD_CMD" "$MD_ARG" \""$directory/$file"\" -o \""$ZA_CACHE_DIR/$pdffile"\"
+			eval "$MD_CMD" "$MD_ARG" \""$directory/$file"\" \""$ZA_CACHE_DIR/$pdffile"\"
 			;;
 		"$TYPST_CMD")
 			eval "$TYPST_CMD" "$TYPST_ARG" \""$directory/$file"\" \""$ZA_CACHE_DIR/$pdffile"\" --open $READER
